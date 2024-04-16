@@ -506,7 +506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9482c0310f0d12842b735ec0355c570f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agentPrefab: {fileID: 1921437119533666491, guid: d0a922722910bcf4cae1d0ed85cac07d, type: 3}
+  agentPrefab: {fileID: 968296339960850661, guid: 7956ab894bf1026489c598ab43de5d1c, type: 3}
   floorScale: 1
 --- !u!4 &1287733695
 Transform:
