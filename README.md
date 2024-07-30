@@ -1,6 +1,6 @@
 ![Static Badge](https://img.shields.io/badge/artificial-intelligence-purple) ![Static Badge](https://img.shields.io/badge/Unity-3D-magenta) ![Static Badge](https://img.shields.io/badge/C-sharp-violet) ![Static Badge](https://img.shields.io/badge/neural-network-pink) 
 
-# $${\color{aqua}AI-Learning}$$
+ # $${\color{aqua}🤖AI-Learning}$$
 
 #### *AI slime creatures learn how to find and eat food to reproduce... else: perish*
 
