@@ -2,7 +2,7 @@
 
 # $${\color{red}AI-Learning}$$
 
-### {\color{purple} _AI slime creatures learn how to find and eat food to reproduce... else: perish_}
+###_AI slime creatures learn how to find and eat food to reproduce... else: perish_
 
 _This project is an AI simulation in Unity that can be tweaked to provide different outcomes and fates for the slimes._
 
