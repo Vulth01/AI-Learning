@@ -1,4 +1,4 @@
-![Static Badge](https://img.shields.io/badge/artificial-intelligence-purple) ![Static Badge](https://img.shields.io/badge/C-sharp-violet) ![Static Badge](https://img.shields.io/badge/neural-network-pink) ![Static Badge](https://img.shields.io/badge/Unity-3D-white)
+![Static Badge](https://img.shields.io/badge/artificial-intelligence-purple) ![Static Badge](https://img.shields.io/badge/C-sharp-violet) ![Static Badge](https://img.shields.io/badge/neural-network-fuchsia) ![Static Badge](https://img.shields.io/badge/Unity-3D-magenta)
 
 # AI-Learning
 
