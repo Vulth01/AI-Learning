@@ -1,8 +1,8 @@
-  ![Static Badge](https://img.shields.io/badge/artificial-intelligence-black) ![Static Badge](https://img.shields.io/badge/C-sharp-blue) ![Static Badge](https://img.shields.io/badge/neural-network-pink) ![Static Badge](https://img.shields.io/badge/Unity-3D-white)
+![Static Badge](https://img.shields.io/badge/artificial-intelligence-purple) ![Static Badge](https://img.shields.io/badge/C-sharp-blue) ![Static Badge](https://img.shields.io/badge/neural-network-pink) ![Static Badge](https://img.shields.io/badge/Unity-3D-white)
 
 # AI-Learning
 
-AI slime creatures learn how to find and eat food to reproduce... else: perish
+### AI slime creatures learn how to find and eat food to reproduce... else: perish
 
 
 This project is an AI simulation in Unity that can be tweaked to provide different outcomes and fates for the slimes. 
