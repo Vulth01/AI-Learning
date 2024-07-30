@@ -1,4 +1,4 @@
-[](https://img.shields.io/badge/Unity-3D-white)
+![Static Badge](https://img.shields.io/badge/Unity-3D-white)
 # AI-Learning
 
 AI slime creatures learn how to find and eat food to reproduce... else: perish
