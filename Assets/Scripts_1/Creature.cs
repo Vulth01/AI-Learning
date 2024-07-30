@@ -7,15 +7,15 @@ public class Creature : MonoBehaviour
     public bool mutateMutations = true;
     public GameObject spawnerParent;
     public GameObject agentPrefab;
-    public bool isUser = false;
-    public bool canEat = true;
+    public bool isUser = false;                           
+    public bool canEat = true;                            //Foreshadowing...?
     public float viewDistance = 20;
     public float size = 1.0f;
-    public float energy = 20;
-    public float energyGained = 10;
-    public float reproductionEnergyGained = 1;
-    public float reproductionEnergy = 0;
-    public float reproductionEnergyThreshold = 10;
+    public float energy = 20;                             //Life energy
+    public float energyGained = 10;                       //Life energy added
+    public float reproductionEnergyGained = 1;            //Reproduction energy added
+    public float reproductionEnergy = 0;                  //Current reproduction energy
+    public float reproductionEnergyThreshold = 10;        //Energy required to reproduce
     public float FB = 0;
     public float LR = 0;
     public int numberOfChildren = 1;
@@ -36,7 +36,6 @@ public class Creature : MonoBehaviour
 
     public bool isDead = false;
 
-    // Start is called before the first frame update
     void Awake()
     {
         spawnerParent = GameObject.FindGameObjectWithTag("CreatureSpawner");
@@ -48,7 +47,6 @@ public class Creature : MonoBehaviour
         this.name = "Agent";
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         //only do this once
@@ -184,7 +182,7 @@ public class Creature : MonoBehaviour
             }
         }
 
-        //Starve
+        //Starve (or falling off the edge)
         float agentY = this.transform.position.y;
         if (energy <= 0 || agentY < -10)
         {
