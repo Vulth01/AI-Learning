@@ -10,9 +10,12 @@ public class SimSpeedController : MonoBehaviour
     private float timeSum;
     public bool autoAdjust;
     public float gameSpeed = 1;
+    public int creatures = -1;
 
-
-
+    void ShowCreatures(){
+        var c = GameObject.FindGameObjectsWithTag("Agent");
+        creatures = c.Length;   
+    }
 
     void Update()
     {
@@ -43,6 +46,9 @@ public class SimSpeedController : MonoBehaviour
             }
 
         }
+
+        ShowCreatures();
+
     }
 
     void AdjustGameSpeed()

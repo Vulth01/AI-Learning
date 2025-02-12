@@ -223,7 +223,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 300, y: 1, z: 300}
+  m_LocalScale: {x: 1000, y: 1, z: 1000}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnRate: 1
   floorScale: 1
-  myPrefab: {fileID: 4743076259850371620, guid: a98770204cb6e4341850c9828495e6c7, type: 3}
+  myPrefab: {fileID: 5982228787822066184, guid: fbfc9e8862d19c9428af3670a682b26a, type: 3}
   timeElapsed: 0
   initialFood: 10
 --- !u!4 &419341315
@@ -378,7 +378,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -2, z: 0}
-  m_LocalScale: {x: 100, y: 1, z: 100}
+  m_LocalScale: {x: 300, y: 1, z: 300}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -506,7 +506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9482c0310f0d12842b735ec0355c570f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  agentPrefab: {fileID: 968296339960850661, guid: 7956ab894bf1026489c598ab43de5d1c, type: 3}
+  agentPrefab: {fileID: 5835081873616167001, guid: 7956ab894bf1026489c598ab43de5d1c, type: 3}
   floorScale: 1
 --- !u!4 &1287733695
 Transform:
@@ -608,13 +608,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1305616661}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.36418688, y: -0.60610884, z: 0.36418688, w: 0.60610884}
-  m_LocalPosition: {x: 160, y: 230, z: 0}
+  m_LocalRotation: {x: 0.300513, y: -0.64007187, z: 0.300513, w: 0.64007187}
+  m_LocalPosition: {x: 150, y: 150, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 62, y: -90, z: 0}
+  m_LocalEulerAnglesHint: {x: 50.3, y: -90, z: 0}
 --- !u!1 &1371706451
 GameObject:
   m_ObjectHideFlags: 0
@@ -646,6 +646,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoAdjust: 0
   gameSpeed: 5
+  creatures: 5
 --- !u!4 &1371706453
 Transform:
   m_ObjectHideFlags: 0

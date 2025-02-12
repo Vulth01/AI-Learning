@@ -10,7 +10,7 @@ using System.Linq;
 public class Movement : MonoBehaviour
 {
     public CharacterController controller;
-    private bool hasController = false;
+    //private bool hasController = false;
     private Vector3 playerVelocity;
     private float gravityValue = -9.81f;
     public float speed = 10.0F;

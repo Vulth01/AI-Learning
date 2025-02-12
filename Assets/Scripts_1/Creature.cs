@@ -61,31 +61,7 @@ public class Creature : MonoBehaviour
 
         ManageEnergy();
 
-        // This group of comments is for the old food detection system
-        // //use the FindClosestFood function to find the closest food object
-        // GameObject closestFood = FindClosestFood();
-
-        // //if food is found, set the relative x and z coordinates of the food to the agent
-        // if (closestFood != null)
-        // {
-        //         relativeFoodX = this.transform.position.x - closestFood.transform.position.x;
-        //         relativeFoodZ = this.transform.position.z - closestFood.transform.position.z;
-        // }
-
-        // //get the angle between the agents local rotation and the food
-        // float angle = Vector3.SignedAngle(transform.forward, new Vector3(relativeFoodX, 0, relativeFoodZ), Vector3.up);
-
-        // //get the distance between the agent and the food
-        // float distance = Mathf.Sqrt((Mathf.Pow(relativeFoodX, 2) + Mathf.Pow(relativeFoodZ, 2)));
-
-        // //Setup inputs for neural network
-        // //get the global rotation of the agent
-        // float [] inputsToNN = {relativeFoodX, relativeFoodZ, transform.rotation.eulerAngles.y};
-
-        //float [] inputsToNN ={(angle), distance/50};
-
-
-        // This section of code is for the new food detection system (Raycasts)
+        // This section of code is for the Raycasts detection system
         // Set up a variable to store the number of raycasts to use
         int numRaycasts = 5;
 
@@ -153,8 +129,10 @@ public class Creature : MonoBehaviour
     void OnTriggerEnter(Collider col)
     {
         //if the agent collides with a food object, it will eat it and gain energy.
+        Debug.Log("Food Located");
         if (col.gameObject.tag == "Food" && canEat)
         {
+            Debug.Log("Food Eaten");
             energy += energyGained;
             reproductionEnergy += reproductionEnergyGained;
             Destroy(col.gameObject);
@@ -277,7 +255,7 @@ public class Creature : MonoBehaviour
         for (int i = 0; i < numberOfChildren; i++) // I left this here so I could possibly change the number of children a parent has at a time.
         {
             //create a new agent, and set its position to the parent's position + a random offset in the x and z directions (so they don't all spawn on top of each other)
-            GameObject child = Instantiate(agentPrefab, new Vector3(
+            GameObject child = Instantiate(this.gameObject, new Vector3(
                 (float)this.transform.position.x + Random.Range(-10, 11),
                 0.75f,
                 (float)this.transform.position.z + Random.Range(-10, 11)),
