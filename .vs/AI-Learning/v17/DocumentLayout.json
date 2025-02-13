@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\damie\\OneDrive\\Desktop\\Unity\\AI-Learning\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\damie\\OneDrive\\Desktop\\Unity\\AI-Learning\\Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.8\\Editor\\Material\\DiffusionProfile\\DiffusionProfileMaterialUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.8\\Editor\\Material\\DiffusionProfile\\DiffusionProfileMaterialUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB74AEE-0D1F-A7AA-6B95-DA09C9D240E5}|Assembly-CSharp.csproj|C:\\Users\\damie\\OneDrive\\Desktop\\Unity\\AI-Learning\\assets\\scripts_1\\grassspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB74AEE-0D1F-A7AA-6B95-DA09C9D240E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_1\\grassspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB74AEE-0D1F-A7AA-6B95-DA09C9D240E5}|Assembly-CSharp.csproj|C:\\Users\\damie\\OneDrive\\Desktop\\Unity\\AI-Learning\\assets\\scripts_1\\foodspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB74AEE-0D1F-A7AA-6B95-DA09C9D240E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_1\\foodspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FAB74AEE-0D1F-A7AA-6B95-DA09C9D240E5}|Assembly-CSharp.csproj|C:\\Users\\damie\\OneDrive\\Desktop\\Unity\\AI-Learning\\assets\\scripts_1\\creature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAB74AEE-0D1F-A7AA-6B95-DA09C9D240E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_1\\creature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{FAB74AEE-0D1F-A7AA-6B95-DA09C9D240E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_1\\nn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAB74AEE-0D1F-A7AA-6B95-DA09C9D240E5}|Assembly-CSharp.csproj|c:\\users\\damie\\onedrive\\desktop\\unity\\ai-learning\\assets\\scripts_1\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FAB74AEE-0D1F-A7AA-6B95-DA09C9D240E5}|Assembly-CSharp.csproj|C:\\Users\\damie\\OneDrive\\Desktop\\Unity\\AI-Learning\\assets\\scripts_1\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAB74AEE-0D1F-A7AA-6B95-DA09C9D240E5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_1\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -38,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,7 +82,44 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DiffusionProfileMaterialUI.cs",
+              "DocumentMoniker": "C:\\Users\\damie\\OneDrive\\Desktop\\Unity\\AI-Learning\\Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.8\\Editor\\Material\\DiffusionProfile\\DiffusionProfileMaterialUI.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.8\\Editor\\Material\\DiffusionProfile\\DiffusionProfileMaterialUI.cs",
+              "ToolTip": "C:\\Users\\damie\\OneDrive\\Desktop\\Unity\\AI-Learning\\Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.8\\Editor\\Material\\DiffusionProfile\\DiffusionProfileMaterialUI.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.high-definition@14.0.8\\Editor\\Material\\DiffusionProfile\\DiffusionProfileMaterialUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAACQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T19:37:08.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GrassSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\damie\\OneDrive\\Desktop\\Unity\\AI-Learning\\Assets\\Scripts_1\\GrassSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts_1\\GrassSpawner.cs",
+              "ToolTip": "C:\\Users\\damie\\OneDrive\\Desktop\\Unity\\AI-Learning\\Assets\\Scripts_1\\GrassSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts_1\\GrassSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T18:23:55.874Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "FoodSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\damie\\OneDrive\\Desktop\\Unity\\AI-Learning\\Assets\\Scripts_1\\FoodSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts_1\\FoodSpawner.cs",
+              "ToolTip": "C:\\Users\\damie\\OneDrive\\Desktop\\Unity\\AI-Learning\\Assets\\Scripts_1\\FoodSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts_1\\FoodSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T18:19:56.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Movement.cs",
               "DocumentMoniker": "C:\\Users\\damie\\OneDrive\\Desktop\\Unity\\AI-Learning\\Assets\\Scripts_1\\Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_1\\Movement.cs",
@@ -78,12 +127,11 @@
               "RelativeToolTip": "Assets\\Scripts_1\\Movement.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T20:09:38.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T20:09:38.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ObjectTracker.cs",
               "DocumentMoniker": "C:\\Users\\damie\\OneDrive\\Desktop\\Unity\\AI-Learning\\Assets\\Scripts_1\\ObjectTracker.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_1\\ObjectTracker.cs",
@@ -91,12 +139,11 @@
               "RelativeToolTip": "Assets\\Scripts_1\\ObjectTracker.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAQwFQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T20:09:07.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T20:09:07.083Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "NN.cs",
               "DocumentMoniker": "C:\\Users\\damie\\OneDrive\\Desktop\\Unity\\AI-Learning\\Assets\\Scripts_1\\NN.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_1\\NN.cs",
@@ -104,12 +151,11 @@
               "RelativeToolTip": "Assets\\Scripts_1\\NN.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T20:08:49.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T20:08:49.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "SimSpeedController.cs",
               "DocumentMoniker": "C:\\Users\\damie\\OneDrive\\Desktop\\Unity\\AI-Learning\\Assets\\Scripts_1\\SimSpeedController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_1\\SimSpeedController.cs",
@@ -121,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "CreatureSpawner.cs",
               "DocumentMoniker": "C:\\Users\\damie\\OneDrive\\Desktop\\Unity\\AI-Learning\\Assets\\Scripts_1\\CreatureSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_1\\CreatureSpawner.cs",
@@ -133,20 +179,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Creature.cs",
               "DocumentMoniker": "C:\\Users\\damie\\OneDrive\\Desktop\\Unity\\AI-Learning\\Assets\\Scripts_1\\Creature.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_1\\Creature.cs",
               "ToolTip": "C:\\Users\\damie\\OneDrive\\Desktop\\Unity\\AI-Learning\\Assets\\Scripts_1\\Creature.cs",
               "RelativeToolTip": "Assets\\Scripts_1\\Creature.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAiwIQAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAiwIQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T18:12:26.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-03T18:12:26.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Loader.cs",
               "DocumentMoniker": "C:\\Users\\damie\\OneDrive\\Desktop\\Unity\\AI-Learning\\Assets\\LoadScripts\\Loader.cs",
               "RelativeDocumentMoniker": "Assets\\LoadScripts\\Loader.cs",

@@ -144,9 +144,9 @@ MonoBehaviour:
   canEat: 1
   viewDistance: 20
   size: 1
-  energy: 20
-  energyGained: 20
-  reproductionEnergyGained: 4
+  energy: 15
+  energyGained: 10
+  reproductionEnergyGained: 5
   reproductionEnergy: 0
   reproductionEnergyThreshold: 10
   FB: 1
